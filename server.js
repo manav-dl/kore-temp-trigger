@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // Absolute path to the large JavaScript file we want to serve
-const scriptPath = join(__dirname, '30_03 copy.js');
+const scriptPath = join(__dirname, '30_03copy.js');
 
 const server = http.createServer((req, res) => {
   // Only handle GET requests to /30_03
